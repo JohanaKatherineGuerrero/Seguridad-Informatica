@@ -1,0 +1,155 @@
+<style type="text/css">
+
+* #MenuActividades{
+                width:1000px;
+                height:auto;
+                margin: 0 auto;
+                position:relative;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+
+             body {
+                 background-image:url(../img/reserva.jpg);
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 }
+
+                 h1 {
+                    font-family:Franklin Gothic Italic;
+                    color:#66FFFF;
+                    margin-top:50px;
+                    font-size: 30px;
+                    text-align:center;
+                 }  
+
+                 h2 {
+                    font-family:Franklin Gothic Heavy;
+                    color: #006680;
+                    margin-top:50px;
+                    font-size: 30px;
+                    text-align:center;
+                 }
+                 h3 {
+                    font-family:Franklin Gothic Italic;
+                    color: blue;
+                    margin-top:50px;
+                    font-size: 30px;
+                    text-align:center;
+                 }
+                  h4 {
+                    font-family:Franklin Gothic Heavy;
+                    color: #006680;
+                    margin-top:50px;
+                    font-size: 30px;
+                    text-align:center;
+                 }
+                 header {
+                    width:1000px;
+                    height:500px;
+                    margin:0px;
+                }
+                nav {
+                    width:500px;
+                    margin:0 auto;
+                    height:50px;
+                    padding:0;
+                    float:center;
+                    border-top-right-radius:0;
+                    border-left-right-radius:0;
+                 }
+                 nav ul ul{
+                    display:none;
+                 }
+                 nav ul li:hover > ul{
+                    display:block;
+                 }
+                 nav ul {
+                    background: #006680;
+                    padding:0 20px;
+                    list-style: none;
+                    position: relative;
+                    display: inline-table;
+                 }
+                 nav ul li{
+                    float: left;
+                 }
+                 nav ul li:hover{
+                    background: #333333;
+                 }
+                 nav ul li:hover a{
+                    color:blue;
+                }
+                nav ul li a {
+                    display: block;
+                    padding:15px 20px;
+                    text-decoration: none;
+                    color:black;
+                 }
+                nav ul ul{
+                    background: #4DFF00;
+                    border-radius:10px;
+                    padding: 0;
+                    position: absolute;
+                    top:100%;
+                }
+                 nav ul ul li{
+                    float:none;
+                 }
+                 nav ul ul li a {
+                    padding:20px 100px;
+                    color: black;
+                    padding-left:20px;
+                 }
+                 nav ul ul li a:hover{
+                    background: #333333;
+                 }
+
+      ul{
+        margin:auto;
+        padding-top:5px;
+    }
+    li{
+        font-size: 20px;
+        font-family: Tahoma;
+        font-weight: bolder;
+         line-height: 8px;
+        float:center;
+        list-style-type:none;
+        padding: 5px;
+        color: black;
+        margin:3px;
+    }
+     a {
+        text-decoration: none;
+        font-size: 20px;
+        background: #A329CC;
+    }
+section{
+    width:1000px;
+    background: #B3B3B3;
+    height: 800px;
+    float:center;
+    margin-top: 40px;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+footer{
+    width:700px;
+    height:400px;
+    float: right;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-top-right-radius:0; 
+    border-top-left-radius: 0;
+}
+p{
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 20px;
+    font-family:Franklin Gothic Italic;
+    text-align: justify;
+    margin-right:14px;
+    margin-left: 14px;
+    color: black;
+}   
